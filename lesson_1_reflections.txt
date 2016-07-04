@@ -1,0 +1,51 @@
+Viewing a diff between two versions of a file helped me
+see the bug that was introduced by highlighting the lines
+in both files of where there were discrepancies. Also, only
+those lines were shown, which helped single out the bug rather
+than against the full text of each file.
+
+Having easy access to the entire history of a file makes
+programmers more efficient in the long term as you can 
+quickly revert back to a version before any bugs were
+coded. You can also try out new things in code without 
+worrying about ruining what works already.
+
+The pros of manually choosing when to commit are that you
+can save when there has been logical change in the work
+you are doing. You can add a message at the time of commit
+to explain the nature of the change. However, the cons of
+manually choosing mean that you may commit too much, making
+the log harder to read and more cluttered or commit too litte,
+meaning any commits may be really large with too much change
+happening at once. The pro of having versions saved automatically
+means it removes the human error of forgetting to commit and losing
+changes that way. However, the con of this is that it may save
+versions which make no sense, saves could be made halfway 
+through typing code. This means versions may not compile. Plus, 
+there are no messages explaining the changes in the saves. 
+
+Some version control systems, like Git, allow saving multiple
+files in one commit as one change in one file may have an 
+impact on another. So the other file would also have to 
+be changed to reflect the update in the first. Therefore,
+it logically follows that these two files could be saved at
+the same time to reflect that the change impacts both files.
+Google Docs treats each file separately, possibly due to the
+fact that the user is using Google Docs specifically for
+the editing of one document unrelated to others?
+
+You can use the command git log to view the entire history 
+of commits for the repository. Each has a serial number,
+author, date and time of commit, and a message about the
+commit. The git diff command allows different commits to 
+be compared using their serial numbers as unique identifiers.
+The git diff shows the lines of code that were added (in
+green) or deleted (in red) between the two different 
+versions used as arguments for the git diff command.
+
+I feel much more confident in making changes or trying new
+ideas with code knowing that I can revert to any version 
+of previous commits if anything distatrous goes wrong.
+
+Now that Git is setup, I would like to start using it for my
+university work assignments as well as other coding projects.

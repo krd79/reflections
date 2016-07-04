@@ -1,0 +1,4 @@
+What happens when you initialise a repository? Why do you need to do it?
+A hidden git folder is created. It does not commit any changes or track any files. 
+However, it needs to be done so that when a commit takes place and files are
+tracked, then any changes and tracking can be saved in this hidden .git folder.
