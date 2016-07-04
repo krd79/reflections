@@ -2,3 +2,12 @@ What happens when you initialise a repository? Why do you need to do it?
 A hidden git folder is created. It does not commit any changes or track any files. 
 However, it needs to be done so that when a commit takes place and files are
 tracked, then any changes and tracking can be saved in this hidden .git folder.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+The staging area adds files that are to be tracked by git from the working
+directory and will be committed following the next commit command. It 
+allows someone to decide which files they want to commit in one logical commit 
+and I expect you can alter your choices. Otherwise, you would be creating too 
+many commits, if you wanted to change the addition of files that have already 
+been committed. 
